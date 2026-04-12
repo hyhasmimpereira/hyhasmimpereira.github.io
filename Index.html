@@ -1,0 +1,70 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio | Rodrigo Lopes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Meu Portfólio</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre Mim</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <li><button id="btn-tema">Escuro</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="sobre">
+            <h2>Sobre Mim</h2>
+            <img src="perfil.jpg" width="200"  alt="Foto de Rodrigo Lopes">
+            <p><h3>Antônio Rodrigo Alves Lopes</h3></p>
+            <p>Sou graduado em Administração pela Universidade Federal do Piauí 
+                e em Matemática pela Universidade Estadual do Piauí. Atualmente, 
+                estou cursando Sistemas para Internet, também pela Universidade 
+                Estadual do Piauí, encontrando-me no bloco III.
+                Possuo 13 anos de experiência na área da docência, atuando em sala
+                 de aula com foco no desenvolvimento da aprendizagem e na adaptação
+                  de metodologias às necessidades dos alunos. Ao longo da minha trajetória, 
+                  venho integrando práticas pedagógicas com o uso de tecnologias, buscando
+                   tornar o ensino mais dinâmico, acessível e eficiente.</p>
+        </section>
+
+        <section id="projetos">
+            <h2>Meus Projetos</h2>
+            <div class="projetos-container"></div>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <form id="meu-formulario" action="#" method="post">
+                <div class="campo">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" required>
+                </div>
+                <div class="campo">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="campo">
+                    <label for="msg">Mensagem:</label>
+                    <textarea id="msg"></textarea>
+                </div>
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Desenvolvido por Rodrigo Lopes Adm</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
