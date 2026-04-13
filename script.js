@@ -44,8 +44,8 @@ const meusProjetos = [
         link: "https://github.com/rodrigolopes/portfolio"
     },
     {
-        titulo: "Projeto 03 - Controle de Notas.",
-        descricao: "Sistema para o controle de notas dos alunos.",
+        titulo: "Projeto 03 - Controle de Vendas.",
+        descricao: "Sistema para registrar e controlar vendas de utensiliios.",
         link: "https://github.com/rodrigolopes/notascontrol" 
     }
 ];
